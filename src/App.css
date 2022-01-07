@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bs-gutter-x: 0rem !important;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://source.unsplash.com/1300x800/?nature,water");
+}
+.row {
+  --bs-gutter-x: 0rem !important;
+}
+.bxs-sun {
+  color: #ffa600;
+}
+.bxs-moon {
+  color: rgb(0, 162, 255);
+}
+main {
+  min-height: 100vh;
+  padding: 0px 25px 25px 25px;
+}
+.main-heading {
+  font-size: 3.5rem;
+  color: #fff;
+  padding: 1rem;
+  background: #0000087e;
+}
+.search-box {
+  background: rgba(255, 255, 255, 0.342);
+  width: 90%;
+  box-shadow: 1px 1px 15px #000008;
+  border-radius: 0px 0px 20px 20px;
+}
+.d-flex {
+  justify-content: space-between;
+}
+.search-box .search-bar {
+  display: block;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden !important;
+  margin: 0 auto;
+  border-radius: 0px 0px 0px 15px;
+  background: none;
+  border: none;
+  outline: none;
+  color: #050000;
+  font-size: 1.5rem;
+  transition: 0.4s ease;
+}
+input::placeholder {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #000008;
+}
+.search-box .search-bar:focus {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.d-flex button {
+  background: none !important;
+  border: none;
+}
+.fa-search {
+  font-size: 1.5rem;
+  padding: 1rem 1.8rem;
+  border-radius: 0px 0px 20px 0px;
+  color: #fff;
+  background: #080000;
+}
+.main-container {
+  margin-top: 8rem !important;
+}
+
+@media screen and (max-width: 1100px) {
+  .inner {
+    padding-top: 10rem !important;
+  }
+  .card-img-overlay {
+    top: 100px !important;
+    padding: 0;
+  }
+  .search-box .search-bar {
+    width: 100%;
+    padding: 1rem 0rem;
+    font-size: 2.5rem;
+  }
+  input::placeholder {
+    font-size: 2.3rem;
+  }
+  .fa-search {
+    font-size: 2rem;
+    padding: 2.1rem;
+  }
+  .col-md-4 {
+    width: 64% !important;
+  }
+  .main-heading {
+    margin: 5rem 0rem ;
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  
+  .col-md-4 {
+    width: 64% !important;
+  }
+  .main-heading {
+    font-size: 3rem;
+  }
+  .card-img-overlay {
+    top: 0px !important;
+    padding: 0;
+  }
+  .inner {
+    padding: 2rem;
+  }
+
+}
+@media screen and (max-width: 550px) {
+  .hum{
+    font-size: 1.1rem;
+  }
+  .main-heading {
+    margin: 6rem 0rem 0rem 0rem;
+    font-size: 3rem;
+  }
+  .inner {
+    padding-top: 0rem !important;
+  }
+  .main-container {
+    margin-top: 3.5rem !important;
+  }
+  .col-md-4 {
+    width: 100% !important;
+  }
+  .search-box {
+    background:#fff;
+    width: 100%;
+    border-radius: 0px !important;
+  }
+  .search-box .search-bar {
+    width: 100%;
+    font-size: 1.7rem;
+    padding: 0rem !important;
+    border-radius: 0px !important;
+  }
+  input::placeholder {
+    font-size: 1.2rem;
+  }
+  .fa-search {
+    font-size: 1.3rem;
+    padding: 1rem;
+    border-radius: 0px;
+  }
+  
+  .card-img {
+    height: 100vh;
+  }
+  .card-img-overlay {
+    top: 40px !important;
+    padding: 0;
+  }
+  main {
+    padding: 0rem;
+  }
+
+  .inner {
+    padding: 2rem;
+  }
+}
