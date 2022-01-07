@@ -127,7 +127,7 @@ input::placeholder {
 }
 @media screen and (max-width: 550px) {
   .hum{
-    font-size: 1.1rem;
+    font-size: 1.1rem
   }
   .main-heading {
     margin: 6rem 0rem 0rem 0rem;
