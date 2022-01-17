@@ -76,6 +76,10 @@ input::placeholder {
   color: #fff;
   background: #080000;
 }
+.fa-search:hover{
+  background: linear-gradient(30deg , #0282fa,#2785dd,#27e4da);
+  color: #000008;
+}
 .main-container {
   margin-top: 8rem !important;
 }
@@ -174,6 +178,6 @@ input::placeholder {
   }
 
   .inner {
-    padding: 2rem;
+    padding: 0rem;
   }
 }
